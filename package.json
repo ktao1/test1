@@ -1,0 +1,26 @@
+{
+  "name": "youtubeapi",
+  "version": "1.0.0",
+  "description": "create a website server that suer can upload videos to thier video channel. resource:'https://www.youtube.com/watch?v=Uv7cIJAymSs'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Kecheng Tao",
+  "license": "MIT",
+  "dependencies": {
+    "@joegesualdo/get-youtube-subtitles-node": "^0.1.0",
+    "alert": "^5.0.10",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "google-auth-library": "^6.1.4",
+    "googleapis": "^67.0.0",
+    "jquery": "^3.6.0",
+    "js-alert": "^1.0.4",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}
